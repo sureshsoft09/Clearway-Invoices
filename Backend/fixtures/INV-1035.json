@@ -1,0 +1,46 @@
+{
+  "invoice_id": "INV-1035",
+  "source_channel": "email",
+  "received_at": "2026-08-20T09:54:00Z",
+  "gcs_uri": "gs://PROJECT-invoices/INV-1035.pdf",
+  "extracted": {
+    "invoice_no": "V002/2026/6446",
+    "invoice_date": "2026-08-17",
+    "vendor_name_raw": "Northwind Components GmbH",
+    "po_ref": "PO-7433",
+    "currency": "EUR",
+    "subtotal": 1884.0,
+    "tax": 357.96,
+    "total": 2241.96,
+    "bank_account": "DE89370400440532013000",
+    "payment_terms": "Net 30",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_code": "NWC-3310",
+        "item_desc": "Terminal block 4mm screw type grey",
+        "uom": "EA",
+        "qty": 184.0,
+        "unit_price": 2.1,
+        "line_total": 386.4
+      },
+      {
+        "line_no": 2,
+        "item_code": "NWC-2201",
+        "item_desc": "Proximity sensor inductive 12mm PNP",
+        "uom": "EA",
+        "qty": 24.0,
+        "unit_price": 62.4,
+        "line_total": 1497.6
+      }
+    ],
+    "field_confidence": {
+      "invoice_no": 0.97,
+      "invoice_date": 0.97,
+      "vendor_name": 0.941,
+      "po_ref": 0.929,
+      "total": 0.95,
+      "bank_account": 0.963
+    }
+  }
+}

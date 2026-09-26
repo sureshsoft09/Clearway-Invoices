@@ -1,0 +1,46 @@
+{
+  "invoice_id": "INV-1022",
+  "source_channel": "scan",
+  "received_at": "2026-09-10T07:44:00Z",
+  "gcs_uri": "gs://PROJECT-invoices/INV-1022.pdf",
+  "extracted": {
+    "invoice_no": "V003/2026/1420",
+    "invoice_date": "2026-09-09",
+    "vendor_name_raw": "Vertex Logistics L.L.P.",
+    "po_ref": "PO-7420",
+    "currency": "INR",
+    "subtotal": 350600.0,
+    "tax": 63108.0,
+    "total": 413708.0,
+    "bank_account": "ICIC0000104-104505000821",
+    "payment_terms": "Net 30",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_code": "VTX-FR01",
+        "item_desc": "Road freight Chennai to Pune FTL 9T",
+        "uom": "TRIP",
+        "qty": 8.0,
+        "unit_price": 38500.0,
+        "line_total": 308000.0
+      },
+      {
+        "line_no": 2,
+        "item_code": "VTX-FR02",
+        "item_desc": "Road freight Chennai to Bengaluru PTL",
+        "uom": "TRIP",
+        "qty": 3.0,
+        "unit_price": 14200.0,
+        "line_total": 42600.0
+      }
+    ],
+    "field_confidence": {
+      "invoice_no": 0.92,
+      "invoice_date": 0.871,
+      "vendor_name": 0.864,
+      "po_ref": 0.774,
+      "total": 0.922,
+      "bank_account": 0.744
+    }
+  }
+}

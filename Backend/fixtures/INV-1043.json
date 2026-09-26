@@ -1,0 +1,37 @@
+{
+  "invoice_id": "INV-1043",
+  "source_channel": "email",
+  "received_at": "2026-09-05T07:43:00Z",
+  "gcs_uri": "gs://PROJECT-invoices/INV-1043.pdf",
+  "extracted": {
+    "invoice_no": "V002/2026/9791",
+    "invoice_date": "2026-09-03",
+    "vendor_name_raw": "Northwind Components G.m.b.H.",
+    "po_ref": "PO-7440",
+    "currency": "EUR",
+    "subtotal": 31200.0,
+    "tax": 5928.0,
+    "total": 37128.0,
+    "bank_account": "DE89370400440532013000",
+    "payment_terms": "Net 30",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_code": "NWC-2201",
+        "item_desc": "Proximity sensor inductive 12mm PNP",
+        "uom": "EA",
+        "qty": 500.0,
+        "unit_price": 62.4,
+        "line_total": 31200.0
+      }
+    ],
+    "field_confidence": {
+      "invoice_no": 0.947,
+      "invoice_date": 0.96,
+      "vendor_name": 0.967,
+      "po_ref": 0.924,
+      "total": 0.961,
+      "bank_account": 0.957
+    }
+  }
+}

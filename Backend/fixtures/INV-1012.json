@@ -1,0 +1,37 @@
+{
+  "invoice_id": "INV-1012",
+  "source_channel": "portal",
+  "received_at": "2026-08-23T06:45:00Z",
+  "gcs_uri": "gs://PROJECT-invoices/INV-1012.pdf",
+  "extracted": {
+    "invoice_no": "V006/2026/6663",
+    "invoice_date": "2026-08-21",
+    "vendor_name_raw": "Sundaram Electricals Pvt Ltd",
+    "po_ref": "PO-7411",
+    "currency": "INR",
+    "subtotal": 4290.0,
+    "tax": 772.2,
+    "total": 5062.2,
+    "bank_account": "AXIS0000123-918020044512891",
+    "payment_terms": "Net 45",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_code": "SEL-8830",
+        "item_desc": "PVC cable 2.5sqmm 90m coil",
+        "uom": "COIL",
+        "qty": 2.0,
+        "unit_price": 2145.0,
+        "line_total": 4290.0
+      }
+    ],
+    "field_confidence": {
+      "invoice_no": 0.98,
+      "invoice_date": 0.957,
+      "vendor_name": 0.955,
+      "po_ref": 0.946,
+      "total": 0.961,
+      "bank_account": 0.952
+    }
+  }
+}

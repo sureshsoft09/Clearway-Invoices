@@ -1,0 +1,64 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink-950: #031028; /* deepest navy */
+  --color-ink-900: #071531;
+  --color-ink-850: #0b2138;
+  --color-ink-800: #112b44;
+  --color-ink-700: #15354f;
+  --color-ink-600: #1f4b6f;
+  --color-mute: #9fb6d6; /* soft blue-gray */
+  --color-paper: #eaf4ff; /* very pale blue */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+html, body, #root { height: 100%; }
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(1100px 520px at 8% -8%, #07223f 0%, transparent 60%),
+    radial-gradient(900px 460px at 92% 6%, #0b2a55 0%, transparent 55%),
+    linear-gradient(180deg, rgba(2,6,23,1) 0%, var(--color-ink-950) 60%);
+  color: var(--color-paper);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+.num { font-family: var(--font-mono); font-variant-numeric: tabular-nums; }
+
+.panel {
+  background: color-mix(in oklab, var(--color-ink-850) 82%, transparent);
+  border: 1px solid var(--color-ink-700);
+  border-radius: 14px;
+  backdrop-filter: blur(8px);
+}
+
+.card-hover {
+  transition: transform .14s ease, border-color .14s ease, background .14s ease;
+}
+.card-hover:hover {
+  transform: translateY(-1px);
+  border-color: var(--color-ink-600);
+  background: color-mix(in oklab, var(--color-ink-800) 90%, transparent);
+}
+
+.scroll-thin::-webkit-scrollbar { width: 8px; height: 8px; }
+.scroll-thin::-webkit-scrollbar-thumb {
+  background: var(--color-ink-700); border-radius: 99px;
+}
+.scroll-thin::-webkit-scrollbar-track { background: transparent; }
+
+@keyframes slide-in { from { transform: translateX(22px); opacity: 0 } to { transform: none; opacity: 1 } }
+.slide-in { animation: slide-in .18s ease-out }
+
+@keyframes pop { from { transform: scale(.97); opacity: .4 } to { transform: none; opacity: 1 } }
+.pop { animation: pop .18s ease-out }
+
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgba(59,130,246,0.45) }
+  70% { box-shadow: 0 0 0 7px rgba(59,130,246,0.0) }
+  100% { box-shadow: 0 0 0 0 rgba(59,130,246,0.0) }
+}
+.live-dot { animation: pulse-ring 1.8s infinite }

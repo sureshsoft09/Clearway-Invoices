@@ -1,0 +1,37 @@
+{
+  "invoice_id": "INV-1023",
+  "source_channel": "email",
+  "received_at": "2026-08-09T17:09:00Z",
+  "gcs_uri": "gs://PROJECT-invoices/INV-1023.pdf",
+  "extracted": {
+    "invoice_no": "V005/2026/2129",
+    "invoice_date": "2026-08-06",
+    "vendor_name_raw": "Blue Ridge Fasteners Inc",
+    "po_ref": "PO-7421",
+    "currency": "USD",
+    "subtotal": 16.32,
+    "tax": 0.0,
+    "total": 16.32,
+    "bank_account": "CHAS0000001-887610432",
+    "payment_terms": "Net 30",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_code": "BRF-7701",
+        "item_desc": "Socket head cap screw 1/4-20 x 1in",
+        "uom": "EA",
+        "qty": 24.0,
+        "unit_price": 0.68,
+        "line_total": 16.32
+      }
+    ],
+    "field_confidence": {
+      "invoice_no": 0.968,
+      "invoice_date": 0.959,
+      "vendor_name": 0.976,
+      "po_ref": 0.974,
+      "total": 0.946,
+      "bank_account": 0.986
+    }
+  }
+}

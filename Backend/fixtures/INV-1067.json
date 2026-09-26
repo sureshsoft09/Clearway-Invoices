@@ -1,0 +1,46 @@
+{
+  "invoice_id": "INV-1067",
+  "source_channel": "email",
+  "received_at": "2026-09-25T10:47:00Z",
+  "gcs_uri": "gs://PROJECT-invoices/INV-1067.pdf",
+  "extracted": {
+    "invoice_no": "V001/2026/9914",
+    "invoice_date": "2026-09-23",
+    "vendor_name_raw": "Acme Industrial Supplies Pvt Ltd",
+    "po_ref": "PO-7463",
+    "currency": "INR",
+    "subtotal": 29105.0,
+    "tax": 5238.9,
+    "total": 34343.9,
+    "bank_account": "HDFC0001947-50200041887612",
+    "payment_terms": "Net 45",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_code": "ACM-4418",
+        "item_desc": "Hex nut M12 grade 8 zinc plated",
+        "uom": "CS",
+        "qty": 20.833333333333332,
+        "unit_price": 222.0,
+        "line_total": 4625.0
+      },
+      {
+        "line_no": 2,
+        "item_code": "ACM-4410",
+        "item_desc": "Hex bolt M12x60 grade 8.8 zinc plated",
+        "uom": "EA",
+        "qty": 120.0,
+        "unit_price": 204.0,
+        "line_total": 24480.0
+      }
+    ],
+    "field_confidence": {
+      "invoice_no": 0.968,
+      "invoice_date": 0.994,
+      "vendor_name": 0.95,
+      "po_ref": 0.935,
+      "total": 0.966,
+      "bank_account": 0.957
+    }
+  }
+}

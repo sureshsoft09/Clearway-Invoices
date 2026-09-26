@@ -1,0 +1,46 @@
+{
+  "invoice_id": "INV-1064",
+  "source_channel": "email",
+  "received_at": "2026-09-02T19:27:00Z",
+  "gcs_uri": "gs://PROJECT-invoices/INV-1064.pdf",
+  "extracted": {
+    "invoice_no": "V008/2026/2680",
+    "invoice_date": "2026-09-01",
+    "vendor_name_raw": "ORION TOOLWORKS PVT LTD",
+    "po_ref": "PO-7460",
+    "currency": "INR",
+    "subtotal": 38180.0,
+    "tax": 6872.4,
+    "total": 45052.4,
+    "bank_account": "UTIB0000456-917010055412300",
+    "payment_terms": "Net 30",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_code": "ORT-2262",
+        "item_desc": "Digital vernier caliper 150mm",
+        "uom": "EA",
+        "qty": 2.0,
+        "unit_price": 2240.0,
+        "line_total": 4480.0
+      },
+      {
+        "line_no": 2,
+        "item_code": "ORT-2250",
+        "item_desc": "Torque wrench 40-200Nm 1/2in drive",
+        "uom": "EA",
+        "qty": 5.0,
+        "unit_price": 6740.0,
+        "line_total": 33700.0
+      }
+    ],
+    "field_confidence": {
+      "invoice_no": 0.979,
+      "invoice_date": 0.968,
+      "vendor_name": 0.911,
+      "po_ref": 0.908,
+      "total": 0.949,
+      "bank_account": 0.94
+    }
+  }
+}

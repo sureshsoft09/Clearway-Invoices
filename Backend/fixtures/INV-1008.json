@@ -1,0 +1,37 @@
+{
+  "invoice_id": "INV-1008",
+  "source_channel": "email",
+  "received_at": "2026-09-19T18:08:00Z",
+  "gcs_uri": "gs://PROJECT-invoices/INV-1008.pdf",
+  "extracted": {
+    "invoice_no": "V002/2026/9004",
+    "invoice_date": "2026-09-17",
+    "vendor_name_raw": "Northwind Components GmbH",
+    "po_ref": "PO-7407",
+    "currency": "EUR",
+    "subtotal": 390.6,
+    "tax": 74.21,
+    "total": 464.81,
+    "bank_account": "DE89370400440532013000",
+    "payment_terms": "Net 30",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_code": "NWC-3310",
+        "item_desc": "Terminal block 4mm screw type grey",
+        "uom": "EA",
+        "qty": 186.0,
+        "unit_price": 2.1,
+        "line_total": 390.6
+      }
+    ],
+    "field_confidence": {
+      "invoice_no": 0.954,
+      "invoice_date": 0.99,
+      "vendor_name": 0.905,
+      "po_ref": 0.957,
+      "total": 0.986,
+      "bank_account": 0.904
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "invoice_id": "INV-1037",
+  "source_channel": "email",
+  "received_at": "2026-09-17T16:45:00Z",
+  "gcs_uri": "gs://PROJECT-invoices/INV-1037.pdf",
+  "extracted": {
+    "invoice_no": "EXT/2026/6546",
+    "invoice_date": "2026-09-15",
+    "vendor_name_raw": "Sterling Fabrication Works",
+    "po_ref": "PO-7399",
+    "currency": "INR",
+    "subtotal": 197958.78,
+    "tax": 35632.58,
+    "total": 233591.36,
+    "bank_account": "HDFC0000521-50100288741190",
+    "payment_terms": "",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_code": "MISC-001",
+        "item_desc": "Fabrication and site erection services",
+        "uom": "LOT",
+        "qty": 1.0,
+        "unit_price": 197958.78,
+        "line_total": 197958.78
+      }
+    ],
+    "field_confidence": {
+      "invoice_no": 0.974,
+      "invoice_date": 0.962,
+      "vendor_name": 0.907,
+      "po_ref": 0.93,
+      "total": 0.977,
+      "bank_account": 0.948
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "invoice_id": "INV-1096",
+  "source_channel": "scan",
+  "received_at": "2026-08-16T12:35:00Z",
+  "gcs_uri": "gs://PROJECT-invoices/INV-1096.pdf",
+  "extracted": {
+    "invoice_no": "V007/2026/8758",
+    "invoice_date": "2026-08-13",
+    "vendor_name_raw": "Trishul Chemicals Ltd",
+    "po_ref": "PO-7491",
+    "currency": "INR",
+    "subtotal": 15560.0,
+    "tax": 2800.8,
+    "total": 18360.8,
+    "bank_account": "KKBK0000958-7411920045",
+    "payment_terms": "Net 60",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_code": "TCL-4400",
+        "item_desc": "Isopropyl alcohol 99% technical 20L",
+        "uom": "DRUM",
+        "qty": 4.0,
+        "unit_price": 3890.0,
+        "line_total": 15560.0
+      }
+    ],
+    "field_confidence": {
+      "invoice_no": 0.824,
+      "invoice_date": 0.822,
+      "vendor_name": 0.856,
+      "po_ref": 0.735,
+      "total": 0.855,
+      "bank_account": 0.72
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "invoice_id": "INV-1016",
+  "source_channel": "email",
+  "received_at": "2026-08-01T18:57:00Z",
+  "gcs_uri": "gs://PROJECT-invoices/INV-1016.pdf",
+  "extracted": {
+    "invoice_no": "V004/2026/8611",
+    "invoice_date": "2026-07-30",
+    "vendor_name_raw": "Kaveri Packaging Solutions Pvt Ltd",
+    "po_ref": "PO-7415",
+    "currency": "INR",
+    "subtotal": 57240.0,
+    "tax": 10303.2,
+    "total": 67543.2,
+    "bank_account": "SBIN0011515-38104412290",
+    "payment_terms": "Net 30",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_code": "KPS-1135",
+        "item_desc": "Stretch wrap film 500mm 23 micron",
+        "uom": "ROLL",
+        "qty": 120.0,
+        "unit_price": 412.0,
+        "line_total": 49440.0
+      },
+      {
+        "line_no": 2,
+        "item_code": "KPS-1120",
+        "item_desc": "Corrugated carton 5-ply 600x400x400",
+        "uom": "EA",
+        "qty": 100.0,
+        "unit_price": 78.0,
+        "line_total": 7800.0
+      }
+    ],
+    "field_confidence": {
+      "invoice_no": 0.943,
+      "invoice_date": 0.954,
+      "vendor_name": 0.976,
+      "po_ref": 0.941,
+      "total": 0.984,
+      "bank_account": 0.96
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "invoice_id": "INV-1025",
+  "source_channel": "edi",
+  "received_at": "2026-09-01T17:15:00Z",
+  "gcs_uri": "gs://PROJECT-invoices/INV-1025.pdf",
+  "extracted": {
+    "invoice_no": "V001/2026/4630",
+    "invoice_date": "2026-08-29",
+    "vendor_name_raw": "Acme Industrial Supplies Pvt Ltd",
+    "po_ref": "PO-7423",
+    "currency": "INR",
+    "subtotal": 537600.0,
+    "tax": 96768.0,
+    "total": 634368.0,
+    "bank_account": "HDFC0001947-50200041887612",
+    "payment_terms": "Net 45",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_code": "ACM-6120",
+        "item_desc": "Threaded rod M16x1000 grade 4.6",
+        "uom": "CS",
+        "qty": 100.0,
+        "unit_price": 5376.0,
+        "line_total": 537600.0
+      }
+    ],
+    "field_confidence": {
+      "invoice_no": 1.0,
+      "invoice_date": 1.0,
+      "vendor_name": 1.0,
+      "po_ref": 1.0,
+      "total": 1.0,
+      "bank_account": 1.0
+    }
+  }
+}

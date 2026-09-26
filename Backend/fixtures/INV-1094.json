@@ -1,0 +1,37 @@
+{
+  "invoice_id": "INV-1094",
+  "source_channel": "portal",
+  "received_at": "2026-09-24T15:38:00Z",
+  "gcs_uri": "gs://PROJECT-invoices/INV-1094.pdf",
+  "extracted": {
+    "invoice_no": "V008/2026/4559",
+    "invoice_date": "2026-09-22",
+    "vendor_name_raw": "Orion Toolworks Pvt Ltd",
+    "po_ref": "PO-7489",
+    "currency": "INR",
+    "subtotal": 53920.0,
+    "tax": 9705.6,
+    "total": 63625.6,
+    "bank_account": "UTIB0000456-917010055412300",
+    "payment_terms": "Net 30",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_code": "ORT-2250",
+        "item_desc": "Torque wrench 40-200Nm 1/2in drive",
+        "uom": "EA",
+        "qty": 8.0,
+        "unit_price": 6740.0,
+        "line_total": 53920.0
+      }
+    ],
+    "field_confidence": {
+      "invoice_no": 0.981,
+      "invoice_date": 0.983,
+      "vendor_name": 0.913,
+      "po_ref": 0.989,
+      "total": 0.953,
+      "bank_account": 0.982
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "invoice_id": "INV-1026",
+  "source_channel": "scan",
+  "received_at": "2026-09-07T07:53:00Z",
+  "gcs_uri": "gs://PROJECT-invoices/INV-1026.pdf",
+  "extracted": {
+    "invoice_no": "V006/2026/6169",
+    "invoice_date": "2026-09-05",
+    "vendor_name_raw": "SUNDARAM ELECTRICALS PVT LTD",
+    "po_ref": "PO-7424",
+    "currency": "INR",
+    "subtotal": 363960.0,
+    "tax": 65512.8,
+    "total": 429472.8,
+    "bank_account": "AXIS0000123-918020044512891",
+    "payment_terms": "Net 45",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_code": "SEL-8830",
+        "item_desc": "PVC cable 2.5sqmm 90m coil",
+        "uom": "COIL",
+        "qty": 8.0,
+        "unit_price": 2145.0,
+        "line_total": 17160.0
+      },
+      {
+        "line_no": 2,
+        "item_code": "SEL-8801",
+        "item_desc": "MCB 32A single pole C-curve",
+        "uom": "EA",
+        "qty": 1200.0,
+        "unit_price": 289.0,
+        "line_total": 346800.0
+      }
+    ],
+    "field_confidence": {
+      "invoice_no": 0.807,
+      "invoice_date": 0.865,
+      "vendor_name": 0.84,
+      "po_ref": 0.741,
+      "total": 0.82,
+      "bank_account": 0.792
+    }
+  }
+}

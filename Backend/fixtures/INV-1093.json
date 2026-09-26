@@ -1,0 +1,46 @@
+{
+  "invoice_id": "INV-1093",
+  "source_channel": "email",
+  "received_at": "2026-08-07T07:38:00Z",
+  "gcs_uri": "gs://PROJECT-invoices/INV-1093.pdf",
+  "extracted": {
+    "invoice_no": "V001/2026/2848",
+    "invoice_date": "2026-08-07",
+    "vendor_name_raw": "Acme Industrial Supplies Pvt Ltd",
+    "po_ref": "PO-7488",
+    "currency": "INR",
+    "subtotal": 226220.0,
+    "tax": 40719.6,
+    "total": 266939.6,
+    "bank_account": "HDFC0001947-50200041887612",
+    "payment_terms": "Net 45",
+    "lines": [
+      {
+        "line_no": 1,
+        "item_code": "ACM-6120",
+        "item_desc": "Threaded rod M16x1000 grade 4.6",
+        "uom": "EA",
+        "qty": 500.0,
+        "unit_price": 448.0,
+        "line_total": 224000.0
+      },
+      {
+        "line_no": 2,
+        "item_code": "ACM-4418",
+        "item_desc": "Hex nut M12 grade 8 zinc plated",
+        "uom": "EA",
+        "qty": 120.0,
+        "unit_price": 18.5,
+        "line_total": 2220.0
+      }
+    ],
+    "field_confidence": {
+      "invoice_no": 0.942,
+      "invoice_date": 0.976,
+      "vendor_name": 0.955,
+      "po_ref": 0.984,
+      "total": 0.989,
+      "bank_account": 0.922
+    }
+  }
+}
